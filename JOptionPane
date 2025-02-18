@@ -1,0 +1,25 @@
+import javax.swing.JOptionPane;  // Importando a classe JOptionPane para criar caixas de diálogo
+
+public class dialogo {
+    public static void main(String[] args) {
+        
+        // Exibe uma caixa de diálogo para o usuário digitar o primeiro número
+        String input1 = JOptionPane.showInputDialog("Digite o primeiro número:");
+        
+        // Converte o valor digitado (String) para um número inteiro
+        int num1 = Integer.parseInt(input1);
+        
+        // Exibe uma caixa de diálogo para o usuário digitar o segundo número
+        String input2 = JOptionPane.showInputDialog("Digite o segundo número:");
+        
+        // Converte o valor digitado (String) para um número inteiro
+        int num2 = Integer.parseInt(input2);
+        
+        // Soma os dois números
+        int soma = num1 + num2;
+        
+        // Exibe o resultado da soma em uma caixa de diálogo
+        JOptionPane.showMessageDialog(null, "A soma dos dois números é: " + soma);
+    }
+}
+
