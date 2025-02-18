@@ -1,0 +1,276 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://ideiasustentavel.com.br/wp-content/uploads/2021/06/agrofloresta.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    overflow-x: hidden;
+}
+
+
+header {
+    background: #004d00; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a8ff9e;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.search-form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-form button:hover {
+    background-color: #45a049;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 15px 0;
+    padding: 20px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+.divider {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #004d00, transparent);
+    margin: 20px 0;
+}
+
+.news-section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.news-section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.news-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 30%;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.news-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.news-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.news-content a {
+    color: #004d00;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.news-content a:hover {
+    text-decoration: underline;
+}
+
+
+.testimonials {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.testimonials h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.testimonials-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 30%;
+    text-align: center;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.testimonial-content strong {
+    color: #004d00;
+}
+
+
+footer {
+    background: #004d00;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+
+.image-container {
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.left {
+    left: 0;
+    background-image: url('https://images.stockcake.com/public/3/4/a/34a95b27-39a9-4af8-a260-ff3add6078e8_medium/scientific-plant-analysis-stockcake.jpg');
+}
+
+.right {
+    right: 0;
+    background-image: url('https://thumbs.dreamstime.com/b/m-os-da-pl-ntula-f-mea-terra-arrendada-do-bot-nico-no-ber-rio-planta-fecho-das-m%C3%A3os-de-bot%C3%A2nica-feminina-que-mant%C3%A9m-muda-156725416.jpg');
+}

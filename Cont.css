@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://ideiasustentavel.com.br/wp-content/uploads/2021/06/agrofloresta.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    overflow-x: hidden;
+}
+
+header {
+    background: #006400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a8ff9e;
+}
+
+.user-options {
+    font-size: 16px;
+    color: white;
+}
+
+.user-options a {
+    font-weight: bold;
+    color: #a8ff9e;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.user-options a:hover {
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #004d00;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .user-options {
+        margin-top: 10px;
+    }
+}
+
+.image-container {
+    position: fixed;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.left {
+    left: 0;
+    background-image: url('https://images.stockcake.com/public/3/4/a/34a95b27-39a9-4af8-a260-ff3add6078e8_medium/scientific-plant-analysis-stockcake.jpg');
+}
+
+.right {
+    right: 0;
+    background-image: url('https://thumbs.dreamstime.com/b/m-os-da-pl-ntula-f-mea-terra-arrendada-do-bot-nico-no-ber-rio-planta-fecho-das-m%C3%A3os-de-bot%C3%A2nica-feminina-que-mant%C3%A9m-muda-156725416.jpg');
+}

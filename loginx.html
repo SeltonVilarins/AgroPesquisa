@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylogin.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h2>Faça seu login</h2>
+        <p>Insira suas credenciais para acessar sua conta.</p>
+        <form id="login-form">
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            <button type="submit" class="btn green">ENTRAR</button>
+            <button type="button" class="btn grey" onclick="window.location.href='cadastro.html'">CADASTRAR</button>
+        </form>
+    </div>
+    <script src="loginscript.js"></script>
+</body>
+</html>

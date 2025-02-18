@@ -1,0 +1,262 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://ideiasustentavel.com.br/wp-content/uploads/2021/06/agrofloresta.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    overflow-x: hidden;
+}
+
+header {
+    background: #004d00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    color: #a8ff9e;
+    transform: scale(1.05);
+}
+
+
+.user-options {
+    font-size: 16px;
+    color: white;
+}
+
+.user-options a {
+    font-weight: bold;
+    color: #a8ff9e;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.user-options a:hover {
+    color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px; 
+    margin: 60px auto;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 14px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.intro {
+    text-align: center;
+    padding: 25px;
+}
+
+.features {
+    text-align: center;
+    padding: 30px;
+}
+
+.feature-box {
+    background: rgba(255, 255, 255, 0.95);
+    margin: 15px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 14px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .user-options {
+        margin-top: 10px;
+    }
+}
+
+
+.image-container {
+    position: fixed;
+    top: 0;
+    width: 180px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.left {
+    left: 0;
+    background-image: url('https://images.stockcake.com/public/3/4/a/34a95b27-39a9-4af8-a260-ff3add6078e8_medium/scientific-plant-analysis-stockcake.jpg');
+}
+
+.right {
+    right: 0;
+    background-image: url('https://thumbs.dreamstime.com/b/m-os-da-pl-ntula-f-mea-terra-arrendada-do-bot-nico-no-ber-rio-planta-fecho-das-m%C3%A3os-de-bot%C3%A2nica-feminina-que-mant%C3%A9m-muda-156725416.jpg');
+}
+
+
+.info-section {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.25);
+    position: relative;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.info-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.info-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.sobre-sistema {
+    background: rgba(240, 248, 255, 0.95);
+    border-left: 8px solid #004d00;
+}
+
+.importancia-preservacao {
+    background: rgba(255, 239, 213, 0.95);
+    border-left: 8px solid #ff8c00;
+}
+
+.equipe-desenvolvimento {
+    background: rgba(224, 255, 255, 0.95);
+    border-left: 8px solid #008b8b;
+}
+
+.parcerias-agradecimentos {
+    background: rgba(245, 245, 220, 0.95);
+    border-left: 8px solid #8b4513;
+}
+
+
+@media (max-width: 768px) {
+    .info-section {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .info-section h2 {
+        font-size: 24px;
+    }
+
+}
+
+
+.info-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-section:hover {
+    transform: scale(1.02);
+}
+
+
+.sobre-sistema {
+    border-left: 6px solid #2E7D32; 
+}
+
+.importancia-preservacao {
+    border-left: 6px solid #C62828; 
+}
+
+.equipe-desenvolvimento {
+    border-left: 6px solid #1565C0; 
+}
+
+.parcerias-agradecimentos {
+    border-left: 6px solid #F9A825; 
+}
+
+
+.divisor {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #2E7D32, #C62828, #1565C0, #F9A825);
+    margin: 40px 0;
+    border-radius: 2px;
+}
+
+
+@media (max-width: 768px) {
+    .info-section {
+        width: 90%;
+        padding: 20px;
+    }
+}

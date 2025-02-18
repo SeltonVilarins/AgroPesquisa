@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://ideiasustentavel.com.br/wp-content/uploads/2021/02/eucaliptos_ekaterinvor_Pixabay.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    text-align: center;
+    position: relative;
+} 
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.select-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.green {
+    background: #28a745;
+    color: white;
+}
+
+.green:hover {
+    background: #218838;
+}
+
+.grey {
+    background: #ddd;
+    color: #333;
+}
+
+.grey:hover {
+    background: #ccc;
+}
